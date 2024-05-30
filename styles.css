@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.hidden {
+    display: none;
+}
+
+.main-screen, .game-screen, .end-screen {
+    margin: 20px;
+}
+
+.albums img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.albums img.selected {
+    border-color: blue;
+}
+
+#suggestions {
+    margin-top: 10px;
+}
+
+#suggestions div {
+    padding: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+#suggestions div:hover {
+    background-color: #ccc;
+}
+
+audio {
+    display: none;
+}
